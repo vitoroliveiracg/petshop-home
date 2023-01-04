@@ -24,22 +24,23 @@ body{
     text-decoration: none;
     color: #dbf599;
     font-size: 20px;
-    padding: 0 50px;
+    padding: 0 20px;
   }
   
   .home-li{
     display: none;
   }
 
+
   header ul{
-    margin: 16px 40px 16px 60px;
+    margin: 16px 0 16px 0;
     padding: 0;
     display: flex;
     flex-flow: row nowrap;
     list-style: none;
     justify-content: center;
     align-content: space-between;
-    float: right;
+    /* float: right; */
   }
   
   header h1{
@@ -81,7 +82,7 @@ body{
   .consulta-virtual img{
     object-fit:cover; /*contain*/
     height: 250px;
-    width: 400px;
+    width: 110%;
   }
   
   
@@ -114,7 +115,7 @@ body{
   .pet img{
     object-fit:cover; /*contain*/
     height: 250px;
-    width: 400px;
+    width: 110%;
   }
   
   footer{
@@ -175,7 +176,7 @@ body{
     justify-content: center;
     align-content: space-between;
     /* border: 1px solid black; */
-    float: right;
+    /* float: right; */
   }
   
   header h1{
