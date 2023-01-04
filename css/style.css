@@ -27,6 +27,10 @@ body{
     padding: 0 50px;
   }
   
+  .home-li{
+    display: none;
+  }
+
   header ul{
     margin: 16px 40px 16px 60px;
     padding: 0;
@@ -158,6 +162,10 @@ body{
     padding: 0 50px;
   }
   
+  .home-li{
+    display: none;
+  }
+
   header ul{
     margin: 16px 40px 16px 60px;
     padding: 0;
@@ -288,8 +296,13 @@ body{
     padding: 0 50px;
   }
   
+  header li{
+    padding: 16px 2px;
+  }
+
   header ul{
-    margin: 16px 40px;
+    margin: 0;
+    /* margin: 16px 40px; */
     padding: 0;
     display: flex;
     flex-flow: row nowrap;
@@ -301,7 +314,7 @@ body{
   }
   
   header h1{
-    font-size: 50px;
+    font-size: 49px;
     letter-spacing: 7px;
     color: #dbf599;
     font-family: 'Passions Conflict', cursive;
@@ -320,8 +333,9 @@ body{
   }
   
   .consulta-virtual .texto{
+    padding-left: 2%;
     padding-top: 45px;
-    max-width: 600px;
+    max-width: 37%;
     font-family: 'Rajdhani', sans-serif;
     /* border: 1px solid black; */
     display: inline-block;
@@ -358,7 +372,7 @@ body{
     position: absolute;
     right: 25px;
     padding-top: 45px;
-    width: 600px;
+    width: 42%;
     color: #f3eeeb;
     font-family: 'Rajdhani', sans-serif;
     /* border: 1px solid yellow; */
@@ -395,9 +409,13 @@ body{
   footer p{
     margin: 0;
   }
+
+  footer li{
+    padding: 16px 2px;
+  }
   
   footer ul{
-    margin: 16px 40px;
+    margin: 0;
     padding: 0;
     display: flex;
     flex-flow: row nowrap;
