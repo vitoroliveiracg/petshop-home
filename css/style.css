@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+@media only screen and (max-width: 550px){
+
+  header{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: #019875;
+  
+  }
+  
+  header a{
+    text-decoration: none;
+    color: #dbf599;
+    font-size: 20px;
+    padding: 0 50px;
+  }
+  
+  header ul{
+    margin: 16px 40px 16px 60px;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    justify-content: center;
+    align-content: space-between;
+    float: right;
+  }
+  
+  header h1{
+    font-size: 50px;
+    letter-spacing: 7px;
+    color: #dbf599;
+    font-family: 'Passions Conflict', cursive;
+    font-weight: 100;
+    display: inline-block;
+    margin: 0;
+    /* border: 1px solid yellow; */
+  }
+  
+  
+  .consulta-virtual{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 50px;
+    background-color:#f3eeeb;
+  }
+  
+  .consulta-virtual .texto{
+    font-family: 'Rajdhani', sans-serif;
+  }
+  
+  .consulta-virtual p{
+    line-height: 30px;
+    font-size: 21px;
+    font-weight:400;
+  }
+  
+  .consulta-virtual h3{
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .consulta-virtual img{
+    object-fit:cover; /*contain*/
+    height: 250px;
+    width: 400px;
+  }
+  
+  
+  .pet{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 50px;
+    background-color: #1f282d;
+    /* border: 1px solid black; */
+  }
+  
+  .pet .texto{
+    color: #f3eeeb;
+    font-family: 'Rajdhani', sans-serif;
+  }
+  
+  .pet p{
+    line-height: 30px;
+    font-size: 21px;
+    font-weight:400;
+  }
+  
+  .pet h3{
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .pet img{
+    object-fit:cover; /*contain*/
+    height: 250px;
+    width: 400px;
+  }
+  
+  footer{
+    display: inline-block;
+    width: 100%;
+    background-color: #019875;
+  }
+  
+  footer p{
+    margin: 0;
+  }
+  
+  footer ul{
+    display: none;
+  }
+  
+  footer p{
+    letter-spacing: 3px;
+    color: #dbf599;
+    font-weight: 100;
+    display: inline-block;
+    margin: 20px 40px;
+    /* border: 1px solid yellow; */
+  }
+}
+
+/*Tablets e Smartphones + largos, 700px para cima) */
+@media only screen and (min-width: 550px) and (max-width: 1079px) {
+
+
+  header{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    /* display: inline-block; */
+    /* width: 100%; */
+    background-color: #019875;
+  
+  }
+  
+  header a{
+    text-decoration: none;
+    color: #dbf599;
+    font-size: 20px;
+    padding: 0 50px;
+  }
+  
+  header ul{
+    margin: 16px 40px 16px 60px;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    justify-content: center;
+    align-content: space-between;
+    /* border: 1px solid black; */
+    float: right;
+  }
+  
+  header h1{
+    font-size: 50px;
+    letter-spacing: 7px;
+    color: #dbf599;
+    font-family: 'Passions Conflict', cursive;
+    font-weight: 100;
+    display: inline-block;
+    margin: 0;
+    /* border: 1px solid yellow; */
+  }
+  
+  
+  .consulta-virtual{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 50px;
+    background-color:#f3eeeb;
+  }
+  
+  .consulta-virtual .texto{
+    font-family: 'Rajdhani', sans-serif;
+  }
+  
+  .consulta-virtual p{
+    line-height: 30px;
+    font-size: 21px;
+    font-weight:400;
+  }
+  
+  .consulta-virtual h3{
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .consulta-virtual img{
+    object-fit:cover; /*contain*/
+    height: 250px;
+    width: 400px;
+  }
+  
+  
+  .pet{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 50px;
+    background-color: #1f282d;
+    /* border: 1px solid black; */
+  }
+  
+  .pet .texto{
+    color: #f3eeeb;
+    font-family: 'Rajdhani', sans-serif;
+  }
+  
+  .pet p{
+    line-height: 30px;
+    font-size: 21px;
+    font-weight:400;
+  }
+  
+  .pet h3{
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .pet img{
+    object-fit:cover; /*contain*/
+    height: 250px;
+    width: 400px;
+  }
+  
+  footer{
+    display: inline-block;
+    width: 100%;
+    background-color: #019875;
+  }
+  
+  footer p{
+    margin: 0;
+  }
+  
+  footer ul{
+    display: none;
+  }
+  
+  footer p{
+    letter-spacing: 3px;
+    color: #dbf599;
+    font-weight: 100;
+    display: inline-block;
+    margin: 20px 40px;
+    /* border: 1px solid yellow; */
+  }
+
+}
+
+
+/* Dispostivos Largos (laptops/desktops, 1080px para cima) */
+@media only screen and (min-width: 1080px) {
+
+  header{
+    display: inline-block;
+    width: 100%;
+    background-color: #019875;
+  
+  }
+  
+  header a{
+    text-decoration: none;
+    color: #dbf599;
+    font-size: 20px;
+    padding: 0 50px;
+  }
+  
+  header ul{
+    margin: 16px 40px;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    justify-content: center;
+    align-content: space-between;
+    /* border: 1px solid black; */
+    float: right;
+  }
+  
+  header h1{
+    font-size: 50px;
+    letter-spacing: 7px;
+    color: #dbf599;
+    font-family: 'Passions Conflict', cursive;
+    font-weight: 100;
+    display: inline-block;
+    margin: 0 0 0 40px;
+    /* border: 1px solid yellow; */
+  }
+  
+  
+  .consulta-virtual{
+    height: 450px;
+    padding: 25px;
+    background-color:#f3eeeb;
+    /* border: 1px solid black; */
+  }
+  
+  .consulta-virtual .texto{
+    padding-top: 45px;
+    max-width: 600px;
+    font-family: 'Rajdhani', sans-serif;
+    /* border: 1px solid black; */
+    display: inline-block;
+  }
+  
+  .consulta-virtual p{
+    line-height: 30px;
+    font-size: 21px;
+    font-weight:400;
+  }
+  
+  .consulta-virtual h3{
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .consulta-virtual img{
+    position: absolute;
+    display: inline-block;
+    right: 25px;
+    height: 400px;
+  }
+  
+  
+  .pet{
+    height: 450px;
+    padding: 25px;
+    background-color: #1f282d;
+    /* border: 1px solid black; */
+  }
+  
+  .pet .texto{
+    position: absolute;
+    right: 25px;
+    padding-top: 45px;
+    width: 600px;
+    color: #f3eeeb;
+    font-family: 'Rajdhani', sans-serif;
+    /* border: 1px solid yellow; */
+    display: inline-block;
+  }
+  
+  .pet p{
+    line-height: 30px;
+    font-size: 21px;
+    font-weight:400;
+  }
+  
+  .pet h3{
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .pet img{
+    /* border: 1px solid green; */
+    position: absolute;
+    display: inline-block;
+    left: 25px;
+    right: 25px;
+    height: 400px;
+  }
+  
+  footer{
+    display: inline-block;
+    width: 100%;
+    background-color: #019875;
+  }
+  
+  footer p{
+    margin: 0;
+  }
+  
+  footer ul{
+    margin: 16px 40px;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    justify-content: center;
+    align-content: space-between;
+    /* border: 1px solid black; */
+    float: right;
+  }
+  
+  footer a{
+    text-decoration: none;
+    color: #dbf599;
+    font-size: 20px;
+    padding: 0 50px;
+  }
+  
+  footer p{
+    letter-spacing: 3px;
+    color: #dbf599;
+    font-weight: 100;
+    display: inline-block;
+    margin: 20px 0 0 40px;
+    /* border: 1px solid yellow; */
+  }
+  
+}
