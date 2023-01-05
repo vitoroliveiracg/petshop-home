@@ -2,15 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
+
 *{
   box-sizing: border-box;
 }
+
 
 body{
   margin: 0;
 }
 
 @media only screen and (max-width: 550px){
+
+  body{
+    width:fit-content;
+  }
 
   header{
     display: flex;
@@ -24,7 +30,7 @@ body{
     text-decoration: none;
     color: #dbf599;
     font-size: 20px;
-    padding: 0 20px;
+    padding: 0 13px;
   }
   
   .home-li{
